@@ -15,6 +15,7 @@ int main() {
     string card;
     int SIZE,i,c;
     list<int> lista;
+    cout << "Enter Credit Card Number(16digits): " << endl;	
     cin >> card;
     SIZE = card.size();
     int ca[SIZE],ne[SIZE];
